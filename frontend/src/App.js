@@ -22,23 +22,31 @@ import CardDeck from "react-bootstrap/CardDeck";
 const HomePage = () =>
     <body>
         <div className="wrapper">
-            <div className="row">
-
-                <div className="col">
-                    <User/>
-                    <UserSensors/>
+            <div class="row">
+                <div class="col-lg-4">
+                        <User/>
                 </div>
 
-                <div className="col">
+                <div class="col-lg-5">
                     <UserBarChart/>
+                    <div id = "StackedAreaChart">
+                    <UserStackedAreaChart/>
+                    </div>
+                </div>
+
+                <div class="col-lg-3">
                     <UserPieChart/>
                 </div>
-
-                <div className="col">
-                    <UserStackedAreaChart/>
-                    <UserLastMeasureCard/>
+            </div>
+            <div class = "row">
+                <div class ="col-lg-4">
+                    <UserSensors/>
                 </div>
-
+                <div class = "col-lg-5">
+                    <div id="LastMeasureCard">
+                        <UserLastMeasureCard/>
+                    </div>
+                </div>
             </div>
         </div>
     </body>;

@@ -44,10 +44,10 @@ class UserStackedAreaChart extends React.Component{
 
     render() {
         return (
-            <Card style={{ width: '33rem' }} id = "User">
+            <Card style={{ width: '52rem' }} id = "User">
                 <AreaChart
-                    width={500}
-                    height={300}
+                    width={800}
+                    height={250}
                     data={this.state.data}
                 >
                     <CartesianGrid strokeDasharray="3 3" />

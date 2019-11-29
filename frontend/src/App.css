@@ -51,9 +51,20 @@ body{
   background-color: white;
 }
 
-main{
+.wrapper{
+  margin-left: 5%;
+  margin-right: 5%;
+  margin-top: 2%;
+  margin-bottom: 2%;
 }
 
-aside{
+#StackedAreaChart {
+  margin-top: 4%;
+}
 
+#LastMeasureCard{
+
+  margin: auto;
+  align-items: center;
+  justify-items:center;
 }
