@@ -62,9 +62,6 @@ body{
   margin-top: 4%;
 }
 
-#LastMeasureCard{
-
-  margin: auto;
-  align-items: center;
-  justify-items:center;
+#adc{
+  margin-top: 2%;
 }

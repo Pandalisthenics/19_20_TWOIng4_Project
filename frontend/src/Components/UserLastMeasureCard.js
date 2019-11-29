@@ -22,7 +22,7 @@ class UserLastMeasureCard extends React.Component{
     render(){
         return (
             <div>
-                <CardDeck style={{ width: '100%', margin:"auto" }}>
+                <CardDeck style={{ width: '100%', marginLeft: "25%"}}>
                     <Card>
                         <Card.Img variant="top" src={air_pollution}/>
                         <Card.Body>

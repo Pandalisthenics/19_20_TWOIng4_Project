@@ -38,14 +38,12 @@ const HomePage = () =>
                     <UserPieChart/>
                 </div>
             </div>
-            <div class = "row">
+            <div class = "row" id = "adc">
                 <div class ="col-lg-4">
                     <UserSensors/>
                 </div>
                 <div class = "col-lg-5">
-                    <div id="LastMeasureCard">
                         <UserLastMeasureCard/>
-                    </div>
                 </div>
             </div>
         </div>
