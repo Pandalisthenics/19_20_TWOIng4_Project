@@ -24,10 +24,12 @@ class UserPieChart extends React.Component{
 
     render() {
         return (
-                <PieChart width={300} height={300}>
-                    <Pie dataKey="value" isAnimationActive={false} data={this.state.data01} cx={150} cy={150} outerRadius={80} fill="#1FA4DF" label />
-                    <Tooltip />
-                </PieChart>
+                <Card >
+                    <PieChart width={300} height={300}>
+                        <Pie dataKey="value" isAnimationActive={false} data={this.state.data01} cx={150} cy={150} outerRadius={80} fill="#1FA4DF" label />
+                        <Tooltip />
+                    </PieChart>
+                </Card>
         );
     }
 }
