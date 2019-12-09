@@ -2,22 +2,10 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="790f5f8f-08ec-4553-ae9e-ad04092b9873" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/package-lock.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/App.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/API/API_user.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/API/API_user.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/App.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/App.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Components/FormDisplayUser.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/Components/FormDisplayUser.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/Components/User.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/Components/User.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Components/UserBarChart.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/Components/UserBarChart.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Components/UserLastMeasureCard.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/Components/UserLastMeasureCard.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Components/UserPieChart.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/Components/UserPieChart.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Components/UserSensors.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/Components/UserSensors.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Components/UserStackedAreaChart.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/Components/UserStackedAreaChart.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/css/App.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/css/App.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/index.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/css/index.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/index.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -53,7 +41,7 @@
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/frontend/src/Components" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../../api-tp" />
     <property name="list.type.of.created.stylesheet" value="CSS" />
     <property name="node.js.detected.package.eslint" value="true" />
     <property name="node.js.path.for.package.eslint" value="project" />
@@ -70,15 +58,15 @@
       <recent name="C:\Users\victo\Desktop\ECE\ING4\Web\projet\19_20_TWOIng4_Project\frontend\src\Components" />
     </key>
   </component>
-  <component name="ServiceViewManager">
-    <option name="viewStates">
+  <component name="RunDashboard">
+    <option name="ruleStates">
       <list>
-        <serviceView>
-          <treeState>
-            <expand />
-            <select />
-          </treeState>
-        </serviceView>
+        <RuleState>
+          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
+        </RuleState>
+        <RuleState>
+          <option name="name" value="StatusDashboardGroupingRule" />
+        </RuleState>
       </list>
     </option>
   </component>

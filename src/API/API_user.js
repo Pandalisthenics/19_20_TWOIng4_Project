@@ -16,6 +16,7 @@ class API_user {
         console.log(`${API_URL}${API_KEY_USERS}/`);
         return axios
             .get(`${API_URL}${API_KEY_USERS}/`);
+        console.log("c'est la fête 2");
     }
 
     // Return user by ID
@@ -23,7 +24,7 @@ class API_user {
         return axios
             .get(`${API_URL}${API_KEY_USER}/${userID}`);
     }
-
+/*
     /// Add a movie to the list by Movie Title
     addMovieByTitle(movieTitle) {
         return axios
@@ -47,7 +48,7 @@ class API_user {
         return axios
             .delete(`${API_URL}${API_KEY_USERS}/${id}`);
     }
-
+*/
 }
 
 export default API_user;
