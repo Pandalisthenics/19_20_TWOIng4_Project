@@ -1,3 +1,71 @@
+.App {
+    text-align: center;
+}
+
+.App-logo {
+    height: 40vmin;
+}
+
+.App-header {
+    background-color: #282c34;
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    font-size: calc(10px + 2vmin);
+    color: white;
+}
+
+.App-link {
+    color: #09d3ac;
+}
+
+body{
+    background: linear-gradient(to right, #6A50C7, #F2E6DC);
+
+    /* Obligatoire si on veut "voir" le dégradé */
+    width: 100%;
+    height: 100%;
+}
+#dropdown-basic-button{
+    width: 100%;
+    text-align: left;
+}
+
+#User{
+
+}
+
+#UserSensors{
+
+}
+
+#Search{
+    padding-left: 5%;
+    padding-right: 5%;
+    padding-top: 5%;
+}
+
+.BarChart{
+    background-color: white;
+}
+
+.wrapper{
+    margin-left: 5%;
+    margin-right: 5%;
+    margin-top: 2%;
+    margin-bottom: 2%;
+}
+
+#StackedAreaChart {
+    margin-top: 4%;
+}
+
+#adc{
+    margin-top: 2%;
+}
+
 #main_container{
     display: flex;
     flex-direction: row;

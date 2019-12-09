@@ -1,15 +1,34 @@
 import React from 'react'
 // import fortmStyle from '../css/formStyle.css'
 import form_image from "../img/form_image.png"
+import API_user from "../API/API_user";
 
 
     //TODO: mettre en place un gestionnaire des deux onglets sur le formulaire
 class FormDisplayUser extends React.Component{
-
+    /* ----------------------     constructor    --------------------------- */
     constructor(props){
         super(props);
     }
 
+    /* ----------------------     functions    --------------------------- */
+    handleClickAddUser() {
+
+        let api_movie = new API_user();
+        if (this.personsInHouse.current.value) {
+            api_movie.addMovieByTitle(this.personsInHouse.current.value).then(response => {
+                if (response.status === 201)
+                    this.getMoviesData();
+            }).catch(onerror => {
+
+            });
+        }
+    }
+
+
+
+
+    /* ----------------------     render    --------------------------- */
     render() {
         return (
             <div className="container register">
@@ -39,9 +58,12 @@ class FormDisplayUser extends React.Component{
                                 <div className="row register-form">
                                     <div className="col-md-6">
                                         <div className="form-group">
-                                            <input type="text" className="form-control"
+                                            <input type="text"
+                                                   className="form-control"
                                                    placeholder="Number of person.s in house *"
-                                                   value=""/>
+                                                   value=""
+                                                   ref={this.personsInHouse}
+                                            />
                                         </div>
                                         <div className="form-group">
                                             <input type="text" className="form-control" placeholder="Country *"
@@ -57,7 +79,9 @@ class FormDisplayUser extends React.Component{
                                                 <option>Large</option>
                                             </select>
                                         </div>
-                                        <input type="submit" className="btnRegister" value="Register"/>
+                                        <input type="submit" className="btnRegister" value="Register" onClick={()=>{
+                                            this.handleClickAddUser()
+                                        }}/>
                                     </div>
                                 </div>
                             </div>

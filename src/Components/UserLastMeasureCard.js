@@ -1,5 +1,5 @@
 import React from "react";
-import '../App.css';
+import '../css/App.css';
 import house_big from '../img/house_big.png'
 import air_pollution from '../img/air_pollution.png'
 import temperature from '../img/temperature.png'

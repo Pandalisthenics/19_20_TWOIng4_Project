@@ -2,11 +2,23 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="790f5f8f-08ec-4553-ae9e-ad04092b9873" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/frontend/src/App.css" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/src/App.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/frontend/src/App.js" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/src/App.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/frontend/src/Components/UserPieChart.js" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/src/Components/UserPieChart.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/package-lock.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/App.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/App.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/App.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Components/FormDisplayUser.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/Components/FormDisplayUser.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Components/User.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/Components/User.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Components/UserBarChart.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/Components/UserBarChart.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Components/UserLastMeasureCard.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/Components/UserLastMeasureCard.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Components/UserPieChart.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/Components/UserPieChart.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Components/UserSensors.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/Components/UserSensors.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Components/UserStackedAreaChart.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/Components/UserStackedAreaChart.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/css/App.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/css/App.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/index.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/css/index.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/index.js" afterDir="false" />
     </list>
-    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -15,8 +27,8 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
-        <option value="JavaScript File" />
         <option value="CSS File" />
+        <option value="JavaScript File" />
       </list>
     </option>
   </component>
@@ -31,30 +43,42 @@
     </option>
   </component>
   <component name="ProjectId" id="1U7ys063YKXJAjoaFGKm0BO4i1w" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showExcludedFiles" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
   <component name="PropertiesComponent">
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$/frontend/src/Components" />
     <property name="list.type.of.created.stylesheet" value="CSS" />
+    <property name="node.js.detected.package.eslint" value="true" />
+    <property name="node.js.path.for.package.eslint" value="project" />
+    <property name="node.js.selected.package.eslint" value="(autodetect)" />
     <property name="nodejs_package_manager_path" value="npm" />
   </component>
   <component name="RecentsManager">
-    <key name="MoveFile.RECENT_KEYS">
-      <recent name="C:\Users\victo\Desktop\ECE\ING4\Web\projet\19_20_TWOIng4_Project\frontend\src\Components" />
-    </key>
     <key name="CopyFile.RECENT_KEYS">
       <recent name="C:\Users\victo\Desktop\ECE\ING4\Web\projet\19_20_TWOIng4_Project\frontend\src\Components" />
     </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\victo\Desktop\ECE\ING4\Web\projet\19_20_TWOIng4_Project\src\css" />
+      <recent name="C:\Users\victo\Desktop\ECE\ING4\Web\projet\19_20_TWOIng4_Project\src\API" />
+      <recent name="C:\Users\victo\Desktop\ECE\ING4\Web\projet\19_20_TWOIng4_Project\frontend\src\Components" />
+    </key>
   </component>
-  <component name="RunDashboard">
-    <option name="ruleStates">
+  <component name="ServiceViewManager">
+    <option name="viewStates">
       <list>
-        <RuleState>
-          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
-        </RuleState>
-        <RuleState>
-          <option name="name" value="StatusDashboardGroupingRule" />
-        </RuleState>
+        <serviceView>
+          <treeState>
+            <expand />
+            <select />
+          </treeState>
+        </serviceView>
       </list>
     </option>
   </component>
@@ -77,6 +101,7 @@
       <workItem from="1575014850562" duration="253000" />
       <workItem from="1575046244869" duration="26000" />
       <workItem from="1575153866293" duration="3072000" />
+      <workItem from="1575838202062" duration="5618000" />
     </task>
     <servers />
   </component>
@@ -95,5 +120,11 @@
         </entry>
       </map>
     </option>
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="431" y="181" width="672" height="678" key="search.everywhere.popup" timestamp="1575839986743">
+      <screen x="0" y="0" width="1536" height="864" />
+    </state>
+    <state x="431" y="181" width="672" height="678" key="search.everywhere.popup/0.0.1536.864/1920.0.1920.1080@0.0.1536.864" timestamp="1575839986743" />
   </component>
 </project>

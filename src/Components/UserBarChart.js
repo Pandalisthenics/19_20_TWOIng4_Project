@@ -1,5 +1,5 @@
 import React from "react";
-import '../App.css';
+import '../css/App.css';
 import house_big from '../img/house_big.png'
 import '../css/bootstrap.css';
 import Card from 'react-bootstrap/Card';

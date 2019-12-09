@@ -1,5 +1,5 @@
 import React from 'react';
-import './App.css';
+import './css/App.css';
 import './css/formStyle.css'
 import Form from './Components/FormSensor.js'
 import User from './Components/User.js';
