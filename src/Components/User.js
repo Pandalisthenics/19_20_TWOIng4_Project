@@ -1,6 +1,7 @@
 import React from "react";
 import '../css/App.css';
 import house_big from '../img/house_big.png'
+import axios from 'axios';
 import '../css/bootstrap.css';
 import Card from 'react-bootstrap/Card';
 import Button from 'react-bootstrap/Button';
@@ -14,7 +15,7 @@ class User extends React.Component{
 
     constructor(props) {
         super(props);
-        this.state = {}
+        this.state = {};
         this.userInput = React.createRef();
 
     }
@@ -32,6 +33,14 @@ class User extends React.Component{
     handleClickDisplayUser() {
         if (this.userInput.current.value) {
             this.compoMaj();
+        }
+    }
+
+    handleClickDisplayUserBis() {
+        if (this.userInput.current.value) {
+            axios
+                .get('http://localhost:3001/api/userModel/5ddb94c6fc13ae640c000014')
+                .then(res => console.log(res.data));
         }
     }
 
