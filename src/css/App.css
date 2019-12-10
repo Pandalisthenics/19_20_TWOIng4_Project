@@ -70,3 +70,110 @@ body{
     display: flex;
     flex-direction: row;
 }
+
+
+/* test*/
+body{
+    /*width: 1500px;
+    height: 740px;*/
+    display: flex;
+    flex-direction: row;
+
+}
+
+#leftSide{
+    flex: 1;
+    /*background-color:red;*/
+    display: flex;
+    flex-direction: column;
+}
+#userCard{
+    flex:1;
+    /*background-color : lightblue;*/
+    margin: 20px;
+    margin-bottom: 10px;
+    /*border:solid;*/
+}
+#userSensors{
+    flex:1;
+    /*background-color : lightblue;*/
+    margin: 20px;
+    margin-top: 10px;
+    /*border:solid;*/
+}
+
+#mainSide{
+    flex:3;
+    /*background-color:pink;*/
+    display: flex;
+    flex-direction: column;
+}
+
+#mainSideTop{
+    flex:1;
+    /*background-color: deepskyblue;*/
+    margin-left: 20px;
+    margin-right:20px;
+    margin-top: 20px;
+    margin-bottom:10px;
+    display: flex;
+    flex-direction: row;
+}
+#graphNbSensors{
+    flex:1;
+    /*background-color: gold;*/
+    margin:20px;
+    margin-right:10px;
+    /*border: solid;*/
+}
+#graphRooms{
+    flex:1;
+    /*background-color: goldenrod;*/
+    /*border:solid;*/
+    margin:20px;
+    margin-left: 10px;
+}
+#mainSideCenter{
+    flex:1;
+    /*background-color: dodgerblue;*/
+    margin-left: 20px;
+    margin-right:20px;
+    margin-top:10px;
+    margin-bottom: 10px;
+    display: flex;
+}
+#graphMeasureSensor{
+    flex:1;
+    /*background-color: goldenrod;*/
+    /*border:solid;*/
+    margin:20px;
+}
+#mainSideBottom{
+    flex:1;
+    /*background-color: darkturquoise;*/
+    margin-left: 20px;
+    margin-right:20px;
+    margin-bottom: 20px;
+    margin-top:10px;
+    display: flex;
+    flex-direction: row;
+}
+.sensorlm{
+    flex:1;
+    /*background-color: greenyellow;*/
+    margin:  20px;
+    /*border: solid;*/
+}
+
+
+@media screen and (max-width: 640px) {
+    #leftSide{
+        display: none;
+    }
+    #mainSideTop{
+        flex-direction: column;
+    }
+    #mainSideBottom{
+        display: none;
+    }
+}

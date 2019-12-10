@@ -62,3 +62,12 @@ le back via Heroku ainsi que la bdd via mongoDB atlas.
 </ul>
 
 Malheureusement, nous n'avons pas eu le temps de connecter ces trois services ensemble.
+
+
+
+
+
+
+
+
+

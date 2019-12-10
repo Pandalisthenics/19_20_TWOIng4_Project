@@ -21,33 +21,57 @@ import CardDeck from "react-bootstrap/CardDeck";
 //page d'accueil
 const HomePage = () =>
     <body>
-        <div className="wrapper">
-            <div class="row">
-                <div class="col-lg-4">
-                        <User/>
-                </div>
 
-                <div class="col-lg-5">
-                    <UserBarChart/>
-                    <div id = "StackedAreaChart">
-                    <UserStackedAreaChart/>
-                    </div>
-                </div>
+    <div id="leftSide">
+        <div id="userCard"> <User/></div>
+        <div id="userSensors"><UserSensors/></div>
+    </div>
 
-                <div class="col-lg-3">
-                    <UserPieChart/>
+    <div id="mainSide" >
+
+        <div id="mainSideTop">
+            <div id="graphNbSensors"><UserBarChart/></div>
+            <div id="graphRooms"><UserPieChart/></div>
+        </div>
+        <div id="mainSideCenter">
+            <div id="graphMeasureSensor"><UserStackedAreaChart/></div>
+        </div>
+        <div id="mainSideBottom">
+
+            <UserLastMeasureCard/>
+        </div>
+    </div>
+
+    </body>;
+
+/*<body>
+    <div className="wrapper">
+        <div class="row">
+            <div class="col-lg-4">
+                    <User/>
+            </div>
+
+            <div class="col-lg-5">
+                <UserBarChart/>
+                <div id = "StackedAreaChart">
+                <UserStackedAreaChart/>
                 </div>
             </div>
-            <div class = "row" id = "adc">
-                <div class ="col-lg-4">
-                    <UserSensors/>
-                </div>
-                <div class = "col-lg-5">
-                        <UserLastMeasureCard/>
-                </div>
+
+            <div class="col-lg-3">
+                <UserPieChart/>
             </div>
         </div>
-    </body>;
+        <div class = "row" id = "adc">
+            <div class ="col-lg-4">
+                <UserSensors/>
+            </div>
+            <div class = "col-lg-5">
+                    <UserLastMeasureCard/>
+            </div>
+        </div>
+    </div>
+</body>;*/
 
 //page formulaire
 const FormPage = () =>
