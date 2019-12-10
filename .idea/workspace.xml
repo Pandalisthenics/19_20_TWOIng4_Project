@@ -3,7 +3,7 @@
   <component name="ChangeListManager">
     <list default="true" id="790f5f8f-08ec-4553-ae9e-ad04092b9873" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Components/UserSensors.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/Components/UserSensors.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Components/UserPieChart.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/Components/UserPieChart.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />

@@ -18,8 +18,8 @@ class UserPieChart extends React.Component{
         this.state = {
             data : [
                 { name: 'bathroom', value: 1},
-                { name: 'bedroom', value: 1},
-                { name: 'entrance', value: 1 },
+                { name: 'bedroom', value: 3},
+                { name: 'entrance', value: 2 },
                 { name: 'livingroom', value: 1 }
             ],
         };
