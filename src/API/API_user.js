@@ -13,9 +13,9 @@ class API_user {
 
     // Return all users
     fetchUsers() {
-        console.log(`${API_URL}${API_KEY_USERS}/`);
+        console.log(`${API_URL}${API_KEY_USERS}`);
         return axios
-            .get(`${API_URL}${API_KEY_USERS}/`);
+            .get(`${API_URL}${API_KEY_USERS}`);
         console.log("c'est la fête 2");
     }
 

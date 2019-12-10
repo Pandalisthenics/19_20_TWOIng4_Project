@@ -8,50 +8,43 @@ import FormControl from 'react-bootstrap/FormControl';
 import Dropdown from 'react-bootstrap/Dropdown';
 import DropdownButton from 'react-bootstrap/DropdownButton';
 import Table from 'react-bootstrap/Table';
+import API_sensor from "../API/API_sensor";
 
 class UserSensors extends React.Component{
 
     constructor(props){
         super(props);
+        this.state = {
+            totalUser : 0,
+            totalSensor : 0
+        }
+    }
+
+    componentDidMount() {
+        console.log("compo");
+        let api_sensor = new API_sensor();
+        api_sensor.fetchSensors().then(response => {
+            this.setState({totalSensor : response.data.sensor.length});
+        }).catch(onerror => {
+        });
+
     }
 
     render(){
         return (
             <div>
                 <Card style={{ width: '21rem' }} id = "UserSensors">
-                    <DropdownButton id="dropdown-basic-button" title="Location">
-                        <Dropdown.Item href="#/action-1">Bathroom</Dropdown.Item>
-                        <Dropdown.Item href="#/action-2">Bedroom</Dropdown.Item>
-                        <Dropdown.Item href="#/action-3">Entrance</Dropdown.Item>
-                        <Dropdown.Item href="#/action-4">Livingroom</Dropdown.Item>
-                    </DropdownButton>
+
                     <Card.Body>
-                        <Card.Title>Sensors</Card.Title>
+                        <Card.Title>Chiffres clés de l'entreprise</Card.Title>
                         <Card.Text>
-                            <Table striped bordered hover>
-                                <thead>
-                                <tr>
-                                    <th>ID</th>
-                                    <th>Value</th>
-                                </tr>
-                                </thead>
-                                <tbody>
-                                <tr>
-                                    <td>5ddba05efc13ae6c9000006b</td>
-                                    <td>30</td>
-                                </tr>
-                                <tr>
-                                    <td>5ddba05ffc13ae6c900000a5</td>
-                                    <td>6</td>
-                                </tr>
-                                <tr>
-                                    <td>5ddba05ffc13ae6c900000c3</td>
-                                    <td>1</td>
-                                </tr>
-                                </tbody>
-                            </Table>
+                            <p>Nombre d'utilisateur : {this.state.totalUser}</p>
+                            <p>Nombre de capteur en service : {this.state.totalSensor}</p>
                         </Card.Text>
                     </Card.Body>
+                    <Card.Footer>
+                        <small className="text-muted">Valeurs actualisées en live</small>
+                    </Card.Footer>
                 </Card>
             </div>
         );

@@ -16,9 +16,10 @@ class User extends React.Component{
         super(props);
         this.state = {}
         this.userInput = React.createRef();
+
     }
 
-    componentDidMount() {
+    compoMaj() {
         let api_user = new API_user();
         console.log("test");
         api_user.fetchUserById(this.userInput.current.value).then(response => {
@@ -29,8 +30,8 @@ class User extends React.Component{
     }
 
     handleClickDisplayUser() {
-        if (this.userInput) {
-            this.componentDidMount();
+        if (this.userInput.current.value) {
+            this.compoMaj();
         }
     }
 
@@ -57,10 +58,10 @@ class User extends React.Component{
                         <Card.Body>
                             <Card.Title>Jacques Rossard</Card.Title>
                             <Card.Text>
-                                ID : id<br></br>
-                                Localisation : fr<br></br>
-                                Nombre d'habitants : 0<br></br>
-                                Maison : s
+                                ID : <br></br>
+                                Localisation : <br></br>
+                                Nombre d'habitants : <br></br>
+                                Maison :
                             </Card.Text>
                         </Card.Body>
                     </Card>

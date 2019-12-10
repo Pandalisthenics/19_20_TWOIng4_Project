@@ -4,8 +4,9 @@
     <list default="true" id="790f5f8f-08ec-4553-ae9e-ad04092b9873" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/API/API_user.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/API/API_user.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/App.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/App.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/Components/User.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/Components/User.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Components/UserPieChart.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/Components/UserPieChart.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Components/UserSensors.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/Components/UserSensors.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -41,7 +42,7 @@
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/../../api-tp" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../../19-20_TWOIng4_TP3-1/tp3-1" />
     <property name="list.type.of.created.stylesheet" value="CSS" />
     <property name="node.js.detected.package.eslint" value="true" />
     <property name="node.js.path.for.package.eslint" value="project" />
@@ -49,12 +50,12 @@
     <property name="nodejs_package_manager_path" value="npm" />
   </component>
   <component name="RecentsManager">
-    <key name="CopyFile.RECENT_KEYS">
-      <recent name="C:\Users\victo\Desktop\ECE\ING4\Web\projet\19_20_TWOIng4_Project\frontend\src\Components" />
-    </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="C:\Users\victo\Desktop\ECE\ING4\Web\projet\19_20_TWOIng4_Project\src\css" />
       <recent name="C:\Users\victo\Desktop\ECE\ING4\Web\projet\19_20_TWOIng4_Project\src\API" />
+      <recent name="C:\Users\victo\Desktop\ECE\ING4\Web\projet\19_20_TWOIng4_Project\frontend\src\Components" />
+    </key>
+    <key name="CopyFile.RECENT_KEYS">
       <recent name="C:\Users\victo\Desktop\ECE\ING4\Web\projet\19_20_TWOIng4_Project\frontend\src\Components" />
     </key>
   </component>
