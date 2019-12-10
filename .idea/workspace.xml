@@ -3,8 +3,6 @@
   <component name="ChangeListManager">
     <list default="true" id="790f5f8f-08ec-4553-ae9e-ad04092b9873" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/API/API_user.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/API/API_user.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Components/User.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/Components/User.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/Components/UserPieChart.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/Components/UserPieChart.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/Components/UserSensors.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/Components/UserSensors.js" afterDir="false" />
     </list>
@@ -42,7 +40,7 @@
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/../../19-20_TWOIng4_TP3-1/tp3-1" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../../api-tp" />
     <property name="list.type.of.created.stylesheet" value="CSS" />
     <property name="node.js.detected.package.eslint" value="true" />
     <property name="node.js.path.for.package.eslint" value="project" />
