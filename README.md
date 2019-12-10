@@ -38,6 +38,8 @@ Deux branches back on été développées de manière séparées : l'une intéra
 en local. Et l'autre, sur la branche developp qui assure une connection avec la base de données en ligne mongoDB atlas, 
 ainsi qu'un lien avec le front, mais que nous n'avons pas eu le temps de développer.
 
+### lien vers le repo back : https://github.com/victoraymard/19_20_ING4_WEB_BACK
+
 # Documentation
 ## Autres ressources
 <ul>
@@ -45,7 +47,7 @@ ainsi qu'un lien avec le front, mais que nous n'avons pas eu le temps de dévelo
     <li>zooning : https://drive.google.com/open?id=14TYppWkDvmeRdtcWvjdrsD_PJUtk5Zd-</li>
     <li>wireframing : https://drive.google.com/open?id=1YK3kgq7GeaJdsQj04EBusBdHPNAA--1l </li>
     <li>mockup : https://www.figma.com/file/HayY4p42j0jJJZqE3T5W9P/SaaS-Sunset-Dashboard-Theme-for-Figma-(Copy)?node-id=0%3A1</li>
-    <li>nos vidéos loom : </li>
+    <li>nos vidéos loom : https://drive.google.com/open?id=1r2-fPGZUI41HbOgVu87CHfR9GPimKA0J46iXMfGqV4U</li>
 </ul>
 
 ## Mise en ligne
