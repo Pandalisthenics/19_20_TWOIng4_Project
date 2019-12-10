@@ -1,13 +1,49 @@
 # Frontend
 
-Ce dossier contiendra la partie frontend de votre projet.
 
-Le frontend à été initalisé avec un create-react-app et sotrybook y est deja installé avec un exemple de stories que vous trouverez dans le repertoire `src/stories`.
+<p>Notre partie Frontend contient deux pages sous les routes /home et /form.
+Sur la première s'affiche différentes informations issues de la base de données mongoDB.</p>
+<ul>
+    <li>
+        <ul>
+                <li><p>Sur cette page, on retrouve une carte utilisateur sur la gauche sur laquelle on peut en chercher un par 
+                son identifiant. Des informations relatives à son profil son ensuite affichées.</p> </li>
+                <li><p>En dessous de la carte utilisateur, on trouve les chiffres clés de l'entrprise.</p></li>
+            </ul>
+    </li>
+    <li>
+        <ul>
+                <li><p>En dessous de la carte utilisateur, on trouve les chiffres clés de l'entrprise.</p> </li>
+                <li> <p>A droite de la carte utilisateur, vous pourrez trouver un graphique bar-chart montrant le nombre de 
+                capteurs en fonction de leur type.</p></li>
+                <li><p>Sur la même ligne, on trouve aussi un pie-chart qui aurait du afficher la proportion de capteurs par 
+                pièce.</p> </li>
+                <li><p>En dessous, vous pourrez trouver un graphique dévoilant le nombre de capteurs et de mesures en fonction 
+                des années.</p></li>
+                <li><p>Enfin, sur la dernière ligne, vous trouverez les dernières mesures enregistrées par chaque capteurs.</p>
+                </li>
+            </ul>
+    </li>
+</ul>
 
-Storybook est là pour vous aider à prototyper et documenter vos composants. Si nous n'arrivons pas à lancer votre projet, nous pourrons au moins regarder vos composants en fonctionnement.
+##expliquer la partie storiebook
 
-## Documentation
+# Backend
 
-Vous pourrez supprimer le contenu de ce README et vous l'approprier en y notant les éléments importants de votre projet. Il est très important de bien documenter un projet !
 
-Inspirez-vous des grands repos open sources qui existent sur github. Les informations qui reviennent souvent sont une description du projet (pourquoi, comment...), la maniere de lancer le projet et eventuellement d'y contribuer, une documentation sur des éléments que vous voulez mettre en avant et pour finir les noms des contributeurs.
+
+# Documentation
+## Autres ressources
+<ul>
+    <li>airtable : https://airtable.com/tbl7mHp7jvq2ncoay/viwT6W9CfzGBBf0zg?blocks=hide&fbclid=IwAR2x20cWpZCV_o339zJuFMyB0eiXh_NyiF77y1MbjS2W1yP8dtyqCXGuemw#</li>
+    <li>zooning : `maquette/zooning`</li>
+    <li>wireframing : `maquette/wireframing`</li>
+    <li>mockup : https://www.figma.com/file/HayY4p42j0jJJZqE3T5W9P/SaaS-Sunset-Dashboard-Theme-for-Figma-(Copy)?node-id=0%3A1</li>
+    <li>nos vidéos loom : </li>
+</ul>
+
+## Mise en ligne
+<p>
+Nous avons essayé de mettre en production notre projet et mettant en ligne les différentes partie que sont le front et 
+le back via Heroku ainsi que la bdd via mongoDB atlas. Le front
+</p>
