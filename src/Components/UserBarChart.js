@@ -18,13 +18,13 @@ class UserBarChart extends React.Component{
         this.state = {
             data : [
                 {
-                    type: 'Temperature', NombreVente: 0, amt: 2400,
+                    type: 'Temperature', Nombre: 0, amt: 2400,
                 },
                 {
-                    type: 'AirPollution', NombreVente: 0, amt: 2110,
+                    type: 'AirPollution', Nombre: 0, amt: 2110,
                 },
                 {
-                    type: 'Humidity', NombreVente: 0, amt: 2290,
+                    type: 'Humidity', Nombre: 0, amt: 2290,
                 },
             ]
 
@@ -42,13 +42,13 @@ class UserBarChart extends React.Component{
                 console.log("data", response.data);
                 for (let i = 0; i < response.data.length; i++) {
                     if (response.data[i].type == "temperature") {
-                        tableauTempo[0].NombreVente = tableauTempo[0].NombreVente + 1;
+                        tableauTempo[0].Nombre = tableauTempo[0].Nombre + 1;
                     }
                     if (response.data[i].type == "airPollution") {
-                        tableauTempo[1].NombreVente = tableauTempo[1].NombreVente + 1;
+                        tableauTempo[1].Nombre = tableauTempo[1].Nombre + 1;
                     }
                     if (response.data[i].type == "humidity") {
-                        tableauTempo[2].NombreVente = tableauTempo[2].NombreVente + 1;
+                        tableauTempo[2].Nombre = tableauTempo[2].Nombre + 1;
                     }
                 }
                 console.log(tableauTempo);
@@ -72,7 +72,7 @@ class UserBarChart extends React.Component{
                     <YAxis />
                     <Tooltip />
                     <Legend />
-                    <Bar dataKey="NombreVente" fill="#1FA4DF" />
+                    <Bar dataKey="Nombre" fill="#1FA4DF" />
                 </BarChart>
             </Card>
         );
