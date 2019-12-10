@@ -3,7 +3,11 @@
   <component name="ChangeListManager">
     <list default="true" id="790f5f8f-08ec-4553-ae9e-ad04092b9873" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+<<<<<<< HEAD
 <<<<<<< refs/remotes/origin/versionfinalepaul
+=======
+      <change beforePath="$PROJECT_DIR$/src/Components/UserBarChart.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/Components/UserBarChart.js" afterDir="false" />
+>>>>>>> versionfinalepaul
       <change beforePath="$PROJECT_DIR$/src/Components/UserPieChart.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/Components/UserPieChart.js" afterDir="false" />
 =======
 <<<<<<< refs/remotes/origin/feature-api

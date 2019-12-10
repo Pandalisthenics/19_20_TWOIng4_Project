@@ -35,23 +35,23 @@ class UserPieChart extends React.Component{
             .fetchSensors()
             .then(response => {
                 // je crée un tableau temporaire à partir dans mon state actuel
-                const tableauTemporaire = this.state.data;
-                this.setState({allSensors: response.data});
-                console.log("reponseeehhhe", this.state.allSensors[0].location);
-                for (let i = 0; i < this.state.allSensors.length; i++) {
-                    if (this.state.allSensors[i].location == "bathroom") {
+                const tableauTemporaire = [...this.state.data];
+                console.log("data", response.data);
+                for (let i = 0; i < response.data.length; i++) {
+                    if (response.data[i].location == "bathroom") {
                         tableauTemporaire[0].value = tableauTemporaire[0].value + 1;
                     }
-                    if (this.state.allSensors[i].location == "bedroom") {
+                    if (response.data[i].location == "bedroom") {
                         tableauTemporaire[1].value = tableauTemporaire[1].value + 1;
                     }
-                    if (this.state.allSensors[i].location == "entrance") {
+                    if (response.data[i].location == "entrance") {
                         tableauTemporaire[2].value = tableauTemporaire[2].value + 1;
                     }
-                    if (this.state.allSensors[i].location == "livingroom") {
+                    if (response.data[i].location == "livingroom") {
                         tableauTemporaire[3].value = tableauTemporaire[3].value + 1;
                     }
                 }
+                console.log(tableauTemporaire);
                 this.setState({ data: tableauTemporaire });
             })
             .catch(error => {
