@@ -65,7 +65,7 @@ class User extends React.Component{
 
                         <Card.Img variant="top" src={house_big}/>
                         <Card.Body>
-                            <Card.Title>Jacques Rossard</Card.Title>
+                            <Card.Title>Utilisateur</Card.Title>
                             <Card.Text>
                                 ID : <br></br>
                                 Localisation : <br></br>
@@ -96,7 +96,7 @@ class User extends React.Component{
 
                     <Card.Img variant="top" src={house_big}/>
                     <Card.Body>
-                        <Card.Title>Jacques Rossard</Card.Title>
+                        <Card.Title>Utilisateur</Card.Title>
                         <Card.Text>
                             ID : {this.state.currentUser._id}<br></br>
                             Localisation : {this.state.currentUser.location}<br></br>
