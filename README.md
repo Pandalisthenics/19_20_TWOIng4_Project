@@ -8,15 +8,14 @@ Sur la première s'affiche différentes informations issues de la base de donné
         <ul>
                 <li><p>Sur cette page, on retrouve une carte utilisateur sur la gauche sur laquelle on peut en chercher un par 
                 son identifiant. Des informations relatives à son profil son ensuite affichées.</p> </li>
-                <li><p>En dessous de la carte utilisateur, on trouve les chiffres clés de l'entrprise.</p></li>
+                <li><p>En dessous de la carte utilisateur, on trouve les sensors du user.</p></li>
             </ul>
     </li>
     <li>
         <ul>
-                <li><p>En dessous de la carte utilisateur, on trouve les chiffres clés de l'entrprise.</p> </li>
-                <li> <p>A droite de la carte utilisateur, vous pourrez trouver un graphique bar-chart montrant le nombre de 
-                capteurs en fonction de leur type.</p></li>
-                <li><p>Sur la même ligne, on trouve aussi un pie-chart qui aurait du afficher la proportion de capteurs par 
+                <li> <p>A droite de la card utilisateur, vous pourrez trouver un graphique bar-chart montrant le nombre de 
+                mesures en fonction de leur type.</p></li>
+                <li><p>Sur la même ligne, on trouve aussi un pie-chart qui affiche la proportion de capteurs par 
                 pièce.</p> </li>
                 <li><p>En dessous, vous pourrez trouver un graphique dévoilant le nombre de capteurs et de mesures en fonction 
                 des années.</p></li>
