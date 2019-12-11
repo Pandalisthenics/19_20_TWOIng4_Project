@@ -59,7 +59,7 @@ class User extends React.Component{
                                 aria-describedby="user-search-bar"
                             />
                             <InputGroup.Append>
-                                <Button onClick={() => this.handleClickDisplayUserBis()}>Find</Button>
+                                <Button onClick={() => this.handleClickDisplayUser()}>Find</Button>
                             </InputGroup.Append>
                         </InputGroup>
 
